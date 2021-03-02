@@ -1,8 +1,18 @@
 
 class TablicaDwuwymariowa{
     public static void main(String[] args){
-
+        int [][] tab2x2 = new int [2][2];
+        tab2x2 [0][0] = 1;
+        tab2x2 [0][1] = 2;
+        tab2x2 [1][0] = 3;
+        tab2x2 [1][1] = 4;
+        for(int i=0;i<tab2x2.length;i++){
+            for(int j=0;j<tab2x2[i].length;j++){
+                System.out.println(tab2x2[i][j]);
+            }
+        }
     }
+    /*
     private static void tab2dFirst(){
 
         int [][] tab2d=new int[5][2];
@@ -27,4 +37,5 @@ class TablicaDwuwymariowa{
             System.out.println(tab[i]);
         }
     }
+    */
 }
