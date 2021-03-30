@@ -6,5 +6,9 @@ class CwiczenieObiektowe_1{
 
         Logowanie l=new Logowanie("akronim","123ADFGE32");
         System.out.println(l);
+
+        Kolo kolo = new Kolo(8);
+        kolo.pole_kola();
+        kolo.obwod_kola();
     }
 }

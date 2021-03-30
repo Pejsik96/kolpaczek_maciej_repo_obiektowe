@@ -6,7 +6,6 @@ class Logowanie{
     public Logowanie(String login, String haslo){
         this.login=login;
         this.haslo=haslo;
-
     }
 
     @Override
