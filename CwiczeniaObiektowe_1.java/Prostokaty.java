@@ -1,20 +1,30 @@
-
 class Prostokaty{
     private int a;
     private int b;
     
-    public Kolo(double promien){
-        this.promien = promien;
+    public Prostokaty(int a,int b){
+        this.a = a;
+        this.b = b;
+        
     }
-    
-    public double pole_kola(){
-        double pole = liczba_pi * (promien*promien);
-        System.out.println(pole);
-        return pole;
+    public int PoleKwadratu(){
+        int PoleKwadratu = a*a;
+        System.out.println("Pole kwadratu: "+ PoleKwadratu);
+        return PoleKwadratu;
     }
-    public double obwod_kola(){
-        double obwod = 2*liczba_pi*promien;
-        System.out.println(obwod);
-        return obwod;
+    public int ObwodKwadratu(){
+        int ObwodKwadratu = 4*a;
+        System.out.println("Obwod kwadratu: "+ ObwodKwadratu);
+        return ObwodKwadratu;
+    }
+    public int PoleProstokata(){
+        int PoleProstokata = a*b;
+        System.out.println("Pole prostokata: "+ PoleProstokata);
+        return PoleProstokata;
+    }
+    public int ObwodProstokata(){
+        int ObwodProstokata = 2*a+2*b;
+        System.out.println("Obwod Prostokata: "+ObwodProstokata);
+        return ObwodProstokata;
     }
 }
