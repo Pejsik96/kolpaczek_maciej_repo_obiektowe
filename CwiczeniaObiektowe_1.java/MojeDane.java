@@ -8,6 +8,5 @@ class MojeDane{
         this.imie=imie;
         this.nazwisko=nazwisko;
         this.klasa=klasa;
-        System.out.println("Witaj "+imie+" "+nazwisko+" "+klasa);
     }
 }
