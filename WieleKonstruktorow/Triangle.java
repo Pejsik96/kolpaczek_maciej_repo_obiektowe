@@ -1,19 +1,8 @@
-
-class Triangle{
-
-    private int a;
-    private int h;
-
-    public Triangle(int a,int h){
-        this.a = a;
-        this.h = h;   
+class Triangle {
+    public Triangle(int wysokosc, int podstawa){
+        System.out.println("Pole trojkata "+wysokosc*podstawa/2);
     }
-
-
-    
-    public int PoleTriangle(){
-        int Pole = h*a/2;
-        System.out.println("Pole : "+ Pole);
-        return Pole;
+    public Triangle(int podstawa){
+        System.out.println("Rownoboczny "+(Math.pow(podstawa, 2)*Math.pow(podstawa, 1/3))/4);
     }
 }
