@@ -19,5 +19,8 @@ public class GameLogic {
 
             break;
     }
-    
+    if(){ //value=21
+        System.out.println("You win!");
+    }
+
 }

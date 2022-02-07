@@ -15,5 +15,6 @@ class Main{
         lista.add(new Cards("queen", 10));
         lista.add(new Cards("king", 10));
         lista.add(new Cards("ace", 11));
+        Ui.menu();
     }
 }
