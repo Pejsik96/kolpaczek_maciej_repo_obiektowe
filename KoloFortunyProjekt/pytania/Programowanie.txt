@@ -1,0 +1,9 @@
+Jaki jest najpopularniejszy język programowania? A.Java B.C++ C.Python D.JavaScript
+Jakiego języka używają skrypty w unity? A.Java B.C# C.C++ D.JavaScript
+Którego języka użyjemy by nadać wygląd naszej stronie internetowej? A.C B.C++ C.C# D.CSS
+Co grupuje RadioButtony? A.GroupButtons B.GroupOfButtons C.ButtonGroup D.ButtonsGroup
+Który kod spowoduje zamknięcie sie aplikacji? A.System.exit(0) B.System.close(0) C.Exit; D.TurnOff();
+Jak zaimportować bilbiotekę "Scanner"? A.import java.util.Scanner;	B.import java.until.Scanner; C.import java.utilScanner;	D.import java.untill.Scanner;
+Jak ustawić, aby aplikacja uruchamiała się na środku ekranu?	A.this.setLocationRelativeTo(null); B.this.setLocationRelativeTo(50, 50); C.window.setLocationRelativeTo(null); D.window.setLocationRelativeTo(50, 50);
+Czym jest GUI? A.Edytorem Tekstu B.Interfejsem Graficznym C.Językiem Programowania D.Kodem źródłowym programu
+W którym programie bedzię nam najtrudniej zrobic wygląd aplikacji? A.Android Studio B.NetBeans C.Visual Studio Code D.IntelliJ 
