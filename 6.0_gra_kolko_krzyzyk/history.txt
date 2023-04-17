@@ -1,0 +1,2 @@
+Gracz 1 (X) vs Gracz 2 (O) Wygral: Gracz 1
+Gracz 1 (X) vs Gracz 2 (O) Remis 
